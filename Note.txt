@@ -77,23 +77,79 @@ this is what you call booleans, it is either True or False
 5. complex
 its exactly what it sounds, just complex numbers like 1+2i or 3+4i or whatever im not typing all that,
 
-=============================================================================================================
+==============================================================================================================================================
 /\_/\
 ( o.o )    (you following yet?, if not car will be sad)
  > ^ <
-============================================================================================================
+========================================================================================================================================== ===
 lets talk about data structures(ya.......)
-there are 6 data structures in R
+///
+How data is stored in R is different from other languages
+R is a vectorized language, 
+so it's very important to understand how data is stored in R
+///
+
+Q.What is a vectorized language?
+A.A vectorized language is a programming language that supports vector operations.
+which means that it can perform operations on multiple elements at once, rather than one element at a time.
+it is especially useful for performing operations on large datasets.
+which is exactly what we need for our task at hand.
+
+Q.So how does R store data?
+A.R uses data structures to store data, from which we can access the data,
+manipulate it and do stuff with it. like analysis and math stuff.
+
+Q.So what are the data structures in R?
+A.there are 6 data structures in R
 1. vector
 2. list
 3. matrix
 4. array
 5. factor
 6. data-frame
-7. time-series
-8. 
+7. table
+8. time-series
+9. S4-class
 
 lets talk about them one by one;
-1. vector
-Description: One-dimensional arrays that hold elements of the same type (numeric, character, logical, etc.).
+1.Vector (only one type of data type)
+a vector is a one-dimensional array that holds elements of the same data-type like,
+(numeric, character, logical, etc.).
+
+2.List (multiple types of data types)
+a list is a one-dimensional array that holds elements of different data-types like,
+(numeric, character, logical, etc.).
+
+3.Matrix (a vector but with 2 dimensions)
+a matrix is a two-dimensional array that holds elements of the same data-type.
+
+4.Array (a vector but with n dimensions)
+an array is a n-dimensional array that holds elements of the same data-type.(honestly i dont know why it is named array when it is 3d)
+(it can hold multiple dimensional data)
+
+5.Factor (a vector but with levels and for categorical data)
+a factor is a 1D array that holds elements of catagorical data. (basically contains levels)
+
+6.Data-frame (a list but with columns and rows)
+a data-frame is a 2D array that holds elements of different data-types. (basically a table)
+
+7.Table (a data-frame but with rows and columns)
+it is used with the tables liberary in R, and it is a extention of the data-frame.
+
+8.Time-series (a vector but with time)
+a time-series is a 1D array that holds elements of time. (basically a time series)(maybe we can use it for our project)
+
+9.S4-class (a vector but with methods(specifically for object-oriented programming, like in C++))
+a S4-class is a 1D array that holds elements of S4-class. (basically a class)
+
+all of these data structures are used for their own purposes, and they are all different from each other.
+using the correct data structure for the correct purpose is very important. as it will enhancee the performance of the code.
+as well as making the code more readable and understandable. making the whole thing much more efficient.
+==========================================================================================================================================
+/\_/\
+( o.o )    (i know it was kind of confusing, but dont worry we will get there, take a look at the code ;))
+  ><
+========================================================================================================================================
+
+
 
