@@ -1,0 +1,99 @@
+this is a note,
+.
+.
+.
+a note can help you understand the code,
+.
+.
+.
+specifically the code in the files,
+.
+.
+.
+now,since you are reading this,i suppose you dont know what R language is, (honestly,i dont know either)
+but lets see what we can do with it, so i'm basically going to write some code in R language,and hopefully,
+i can learn it too, but not so fast, because i'm not a programmer, i'm a guy who likes to code, and also
+i can read the code, so if you can't .....well dont worry ill leave the comments for ya
+.
+.
+/\_/\  
+( o.o ) 
+ > ^ <
+ =====================================================================================================
+so lets begain,
+
+What is R language?
+R is a programming language and software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing.
+The R language is widely used among statisticians and data miners for developing statistical software and data analysis. Polls, surveys of data miners,
+and studies of scholarly literature databases show that R's popularity has increased substantially in recent years.
+
+Why are we using R language? (i know you are wondering this)
+Ans; simply because we can, and also because it is a good language to learn, and since we are learning about the whole data structure shinanigans,
+we can use R to do it (Yaaayyyyy) but ya thats basically it, its fast, reliable, easy to use and set up (unlike that peice of shit SQL)
+
+also, we are working on a project which requires us to use R, so we are going to use it, to deal with say....mising values, errors, and other stuff.
+also makes you more qualified in that regard :D
+
+======================================================================================================
+now lets really begin,
+
+lets start with the basics,
+
+# is used to comment out a line of code,
+print() is used to print something to the console,(its not python tho)
+we use either "<-" or "=" to assign a value to a variable,
+variable also work as you would expect them to work,
+and all the math works and you would expect it,
+and you can just print variables, dont stack them with strings tho that doesnt work,
+========================================================================================================
+/\_/\  
+( o.o )    (this a car, i dont know why it is here)
+ > ^ <
+=========================================================================================================
+lets talk about data types
+there are 6 data types in R
+1. character
+2. numeric
+3. integer
+4. logical
+5. complex
+
+lets talk about them one by one
+1. character
+this is a string, it is a sequence of characters, it is enclosed in quotes
+"hello world" and you know what bla bla bla.
+
+2. numeric
+this is a number like seriously, it is a number like 1.32234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234
+(it's a ripoff of floats)
+
+3. integer
+this is a integer like seriously like seriously its an integer, 
+1,3,5,7,11 etc
+
+4. logical
+this is what you call booleans, it is either True or False
+
+5. complex
+its exactly what it sounds, just complex numbers like 1+2i or 3+4i or whatever im not typing all that,
+
+=============================================================================================================
+/\_/\
+( o.o )    (you following yet?, if not car will be sad)
+ > ^ <
+============================================================================================================
+lets talk about data structures(ya.......)
+there are 6 data structures in R
+1. vector
+2. list
+3. matrix
+4. array
+5. factor
+6. data-frame
+7. time-series
+8. 
+
+lets talk about them one by one;
+1. vector
+Description: One-dimensional arrays that hold elements of the same type (numeric, character, logical, etc.).
+
